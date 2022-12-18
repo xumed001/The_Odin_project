@@ -1,0 +1,71 @@
+ /* 
+ ---------------------------> . is for class 
+ ---------------------------> # is for id
+
+---------------------------------------------------------------------------
+ */
+
+body {
+    background-color: rgb(153, 164, 164);
+    color: rgb(70, 70, 70);
+    /* display: flex;
+    flex-wrap: wrap; 
+
+    
+    background-image: url(../images/image001.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    */
+ 
+}
+
+
+
+h1{
+    font-size: 41px;
+    color: black;
+}
+
+
+
+.top-section {
+    font-size: 30px;
+}
+
+.bottom-section {
+    font-size: 25px;
+}
+
+.intro {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+span{
+    color: yellow;
+    font-size: 27px;
+    font-style: italic;
+}
+
+
+/* CSS box model 
+    - margin = empty space without background color
+    - border = border around the element
+    - padding = empty space with background color
+
+    all of these add on/take up width and height
+*/
+
+.box {
+
+    background-color: pink;
+    width: 300px;
+    
+    margin: 100px;
+
+    border-left-width: 4px;
+    border-left-color: red;
+    border-left-style: solid;
+    
+    padding: 200px 100px ; /* top right bottom left, clockwise*/
+}
