@@ -2,9 +2,9 @@
 body{
     background-color: #f9f4ef;
     color: #716040;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 
+    font-size: 20px;
     margin: 0;
 }
 
@@ -13,11 +13,12 @@ header{
     text-transform: uppercase;
     color: #020826;
 
+    font-family: cursive;
+
     background-color: #8c7851;
     padding-top: 50px;
     padding-bottom: 50px;
     
-
     margin-bottom: 50px;
 }
 
@@ -26,6 +27,10 @@ header{
     max-width: 1000px;
 
     margin: 0 auto;
+}
+
+p {
+    font-size: 16px;
 }
 
 section {
@@ -37,6 +42,15 @@ aside {
     float: right;
     width: 25%;
 }
+
+aside ul {
+    font-size: 16px;
+}
+
+#last_paragraph {
+    margin-bottom: 60px;
+}
+
 
 footer {
     clear: both;
