@@ -1,5 +1,5 @@
 body{
-    background-color: lightskyblue;
+    background-color: whitesmoke;
     color: darkgreen;
     font-size: 21px;
 
@@ -8,7 +8,7 @@ body{
 
 h1{
     font-size: 70px;
-    color: blue;
+    color: darkcyan;
     margin-bottom: 0px;
 }
 
@@ -30,6 +30,8 @@ p{
     /* font-weight: lighter; */
 
     text-align: justify;
+
+    /* clear: both; */
 }
 
 .word1{
@@ -84,3 +86,8 @@ a:active {
 /* .important-link {
     color: yellow !important;
 } */
+
+img {
+    float: left;
+    padding: 10px;
+}
